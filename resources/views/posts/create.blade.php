@@ -4,6 +4,12 @@
         <meta charset="utf-8">
         <title>Blog</title>
     </head>
+    
+    <x-app-layout>
+    <x-slot name="header">
+        ブログ
+    </x-slot>
+    
     <body>
         <h1>Blog Name</h1>
         <form action="/posts" method="POST">
@@ -30,4 +36,6 @@
         </form>
         <div class="back">[<a href="/">back</a>]</div>
     </body>
+    
+    </x-app-layout>
 </html>
